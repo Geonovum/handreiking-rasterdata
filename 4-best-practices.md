@@ -145,7 +145,6 @@ De drie opties bedienen elk een ander gebruik. Hieronder een overzicht van de be
 ### Nadelen van OGC API EDR 
 
 - Minder geschikt voor grote raster-downloads of volledige coverage-subsetting. 
-- Beperktere coverage-semantiek dan OGC API Coverages. 
 - Geen volledige ondersteuning voor CRS-transformaties en resampling. 
 - Minder geschikt voor complexe wetenschappelijke datacubes. 
 - Voert geen server-side interpolatie of herprojektie uit. 
@@ -240,7 +239,7 @@ Voorbeelden: AHN, orthofoto's, satellietarchieven
 
 Aanbeveling: STAC + COG 
 
-## Voor dynamische en multidimensionale data 
+## Voor dynamische en/of multidimensionale data 
 
 Voorbeelden: klimaatprojecties, hydrologische modellen, luchtkwaliteitssimulaties, Digital Twin-simulatie-uitvoer 
 
