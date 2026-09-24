@@ -42,11 +42,11 @@ Anders dan STAC biedt OGC API Coverages een operationele toegangsinterface.
 
 __Cloud-native toegang:__
 
-STAC Item → COG / Zarr → Client haalt data op via HTTP Range requests
+```STAC Item → COG / Zarr → Client haalt data op via HTTP Range requests```
 
 __Service-georiënteerde toegang:__ 
 
-DCAT Dataservice → OGC API Coverages → Server serveert data naar de Client 
+```DCAT Dataservice → OGC API Coverages → Server serveert data naar de Client ```
 
 Beide patronen kunnen naast elkaar bestaan en zelfs dezelfde onderliggende dataset ontsluiten: 
 

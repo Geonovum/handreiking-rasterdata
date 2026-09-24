@@ -18,7 +18,7 @@ Een COG is een GeoTIFF-bestand dat slim georganiseerd is voor efficiënte toegan
 
 Clients zoals GDAL, Rasterio, QGIS en ArcGIS halen zo alleen de stukken op die nodig zijn voor een specifieke weergave of analyse. 
 
-Client → HTTP Range Requests → Cloud Optimized GeoTIFF 
+```Client → HTTP Range Requests → Cloud Optimized GeoTIFF```
 
 Voor veel datasets – zoals AHN-hoogtemodellen, orthofoto's, satellietbeelden en landbedekkingskaarten – maakt dit aparte raster-extractieservices overbodig. 
 
